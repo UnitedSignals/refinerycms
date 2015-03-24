@@ -1,3 +1,5 @@
+require_relative '../../../../lib/refinery/pages/caching'
+
 module Refinery
   module Pages
     class PageSweeper < ActionController::Caching::Sweeper
